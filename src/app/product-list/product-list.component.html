@@ -1,0 +1,10 @@
+<div class="content is-large">
+  <h1>Products</h1>
+  <div class="columns is-multiline">
+    <div *ngFor="let product of products" class="column is-one-quarter-desktop is-half-tablet" >
+      <app-product-card  [product]="product" ></app-product-card>
+    </div>
+  </div>
+</div>
+
+

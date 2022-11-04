@@ -1,0 +1,23 @@
+<div class="card">
+      <div class="card-image">
+          <figure class="image is-3by2">
+            <img [src]="product.header_image | formatImage : 'header images'" alt="">
+          </figure>
+          <div class="overlay">
+            <ul>
+              <li *ngFor="let item of product.features | slice: 0: 1">{{ item }}</li>
+            </ul>
+          </div>
+          <div class="card-content is-overlay is-clipped">
+            <span class="tag is-info">
+              {{ product.name }}
+            </span>
+          </div>
+      </div>
+      <footer class="card-footer">
+          <a class="card-footer-item">
+            {{ product.price }}
+          </a>
+      </footer>
+</div>
+

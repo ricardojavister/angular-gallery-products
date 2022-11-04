@@ -1,0 +1,90 @@
+[
+    {
+        "name": "Base Station",
+        "price": "This product is not sold individually.",
+        "header_image": "base_station_header",
+        "features": ["The Base Station can send out a Medical alert to the Monitoring service via the Panic Button on a Key Fob, Keypad or Stand alone Panic Button.", "The Base Station can now connect simultaneously to WiFi and Cellular.", "Built-in speaker for audible sirens (95 decibels), door chimes, and voice prompt.", "Program up to 100 devices, and the SimpliCam.", "Blue status light darkens during the alarm process to draw a burglar's attention away and protect the Base.", "Battery backup in case of main power failure; these recharge on their own when power is restored.", "Receives 400 - 500 MHz radio frequency (RF) SimpliSafe sensor signals at a range of up to 800 feet."]
+    },
+    {
+        "name": "Keypad",
+        "price": "$69.99",
+        "thumbnail_image": "keypad_thumbnail",
+        "header_image": "keypad_header",
+        "features": ["Notification alerts on the right hand side of the keypad display alerts the user to important messages such as errors, open sensors, alarms, and updates.", "Proximity sensor built into the Keypad will wake up the keypad when the user puts their hand near the Keypad.", "Power Savings mode. When enabled disables the proximity sensor, the backlight will dim in 5 seconds, and turn off in 10.", "Panic Button on top can be customized to send out an Audible alarm, Fire alarm, or Medical alarm signal to the Monitoring Service.", "Speaker emits Entry Delay Countdown Beep preceding an alarm instead of the Base Station -- this tricks burglars into thinking the Keypad is the Base, and destroying the Keypad will not stop the alarm!"]
+    },
+    {
+        "name": "Key Fob",
+        "price": "$24.99",
+        "thumbnail_image": "key_fob_thumbnail",
+        "header_image": "key_fob_header",
+        "features": ["Panic Button can be customized to send out an Audible alarm, Fire alarm, or Medical alarm signal to the Monitoring Service.", "Panic Button (hold for over a second) for setting off the alarm right away."]
+    },
+    {
+        "name": "Entry Sensor",
+        "price": "$14.99",
+        "thumbnail_image": "entry_sensor_thumbnail",
+        "header_image": "entry_sensor_header",
+        "features": ["Triggers door chimes in Off Mode.", "Blue status light flashes once when sensor is \"opened\" and twice when \"closed\".", "Sensor and magnet can be placed up to 1.5\" away.", "Works on both doors and windows - anything which separates."]
+    },
+    {
+        "name": "Motion Sensor",
+        "price": "$29.99",
+        "thumbnail_image": "motion_sensor_thumbnail",
+        "header_image": "motion_sensor_header",
+        "features": ["Detects the heat from person moving through the room.", "Sensitivity setting switch for increasing or decreasing motion detection range to preference.", "\"Pet Friendly\" - less sensitive to motion close to the ground and to dogs and cats under 50 lbs.", "Field of vision of 90 degrees (full range from corners)."]
+    },
+    {
+        "name": "Panic Button",
+        "price": "$19,99",
+        "thumbnail_image": "panic_button_thumbnail",
+        "header_image": "panic_button_header",
+        "features": ["Press and hold this button for 2 seconds to instantly trigger the SimpliSafe alarm system.", "Panic Button can be customized to send out an Audible alarm, Silent (Duress), Fire alarm, or Medical alarm signal to the Monitoring Service.", "Red LED signal indicator pulses when it sends a signal to the Base Station."]
+    },
+    {
+        "name": "Glassbreak Sensor",
+        "price": "$34.99",
+        "thumbnail_image": "glassbreak_sensor_thumbnail",
+        "header_image": "glassbreak_sensor_header",
+        "features": ["In Test Mode, you can test the sensor by clapping near protected windows.", "Detects the distinct sound of glass shattering from up to 20' away.", "Sensitivity setting switch for increasing or decreasing sound detection range to preference."]
+    },
+    {
+        "name": "Smoke Detector",
+        "price": "$29.99",
+        "header_image": "smoke_detector_header",
+        "features": ["Triggers when a fire’s still smoldering—before a full fire breaks out. Loud system-wide sirens jolt you awake and out of the house."]
+    },
+    {
+        "name": "Carbon Monoxide Detector",
+        "price": "$49.99",
+        "header_image": "co_detector_header",
+        "features": ["Triggers an alarm in the presence of high concentrations of Carbon Monoxide."]
+    },
+    {
+        "name": "Water Sensor",
+        "price": "$19.99",
+        "thumbnail_image": "water_sensor_thumbnail",
+        "header_image": "water_sensor_header",
+        "features": ["Triggers an alarm on contact with water. There are 3 pairs of metal contacts, 2 of the 6  must touch the water to trigger.", "Water resistant housing (which means no battery tab)."]
+    },
+    {
+        "name": "Freeze Sensor",
+        "price": "$29.99",
+        "thumbnail_image": "freeze_sensor_thumbnail",
+        "header_image": "freeze_sensor_header",
+        "features": ["Freeze sensors can be triggered from Low and High temperatures.", "Automatically takes the temperature once an hour, or manually when its physical Test Button is pressed."]
+    },
+    {
+        "name": "Extra Siren",
+        "price": "$59.99",
+        "thumbnail_image": "extra_siren_thumbnail",
+        "header_image": "extra_siren_header",
+        "features": ["Settings for each individual Siren can be adjusted. Done by going to the menu in the Keypad, then Devices, then choosing the Siren.", "Siren can reach up to 105 dB (comparable to the front row of a rock concert).", "Alarm volume can be adjusted to Low, Medium, or High.", "Can mimic door chimes and entry/exit delay beeps.", "Weather resistant for outdoor use."]
+    },
+    {
+        "name": "SimpliCam",
+        "price": "$99",
+        "thumbnail_image": "simplicam_thumbnail",
+        "header_image": "simplicam_header",
+        "features": ["720p High Definition Video with Sound.", "120 degree field of view.", "Night Mode with Infrared light, configurable as Auto, On, or Off.", "Red indicator light on the lens rim indicates Night Mode active.", "Privacy Shutter customizable for System Modes Off, Home or Away.", "Speaker provides voice prompts for guided installation.", "Status mode light at the top.", "Motion Detection - Push notifies user a prompt to watch live video.", "Request Live Video and manage Cameras via Home Security App."]
+    }
+]
