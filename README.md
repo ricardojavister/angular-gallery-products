@@ -9,6 +9,9 @@ Here are some guideline mockups
 ![Sensor List](https://github.com/simplisafe/frontend-code-challenge/raw/master/sensor_list.png)
 ![Details Page](https://github.com/simplisafe/frontend-code-challenge/raw/master/details_page.png)
 
+Demo:
+![products](https://user-images.githubusercontent.com/18402098/200345184-2924a510-ab41-4626-afce-fc7b67c5b4d2.gif)
+
 Product List:
 ![image](https://user-images.githubusercontent.com/18402098/200317266-cf434616-4741-4b63-abfe-f7b26d016cc2.png)
 
