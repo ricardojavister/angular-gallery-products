@@ -11,17 +11,12 @@ import { filter } from 'rxjs/operators';
 })
 export class ProductDetailComponent implements OnInit {
   public product: Product;
-  private id: string;
-
   constructor(private route: ActivatedRoute,private productService: ProductService) { }
 
   ngOnInit() {
-    this.id = this.route.snapshot.paramMap.get('id')
-
-    const res = this.productService.getProducts$.subscribe( data => {
-      this.product =  data.find(x=> x.name== this.id);
+    this.productService.getProducts$.subscribe( data => {
+      this.product =  data.find(x=> x.name== this.route.snapshot.paramMap.get('id'));
     });
-
   }
 
 }
