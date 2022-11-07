@@ -1,28 +1,14 @@
-.card{
   .card-image{
-    .overlay {
-      position: absolute;
-      bottom: 0;
-      background: rgb(0, 0, 0);
-      background: rgba(0, 0, 0, 0.5); /* Black see-through */
-      color: #f1f1f1;
-      width: 100%;
-      transition: .5s ease;
-      opacity:0;
-      color: white;
-      font-size: 20px;
-      padding: 9px;
-      text-align: center;
-
-      ul{
-        list-style-type: none;
-        li{
-          font-size: 0.75rem;
-        }
+      display: inline-flex;
+      img{
+        height: 100px;
+        width: auto;
       }
-    }
   }
-  &.card:hover .card-image .overlay{
-    opacity: 1;
+  .card-text{
+    margin-left: 2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
   }
-}
+
