@@ -7,19 +7,18 @@
         </figure>
     </div>
     <footer class="card-footer">
-        <a class="card-footer-item">
+        <span class="card-footer-item">
           Device Name:{{ product.name }}
-        </a>
-        <a class="card-footer-item">
+        </span>
+        <span class="card-footer-item">
           Price:{{ product.price }}
-        </a>
+        </span>
         <div class="card-footer-item">
           <span>Features:</span>
           <ul>
             <li *ngFor="let item of product.features">{{ item }}</li>
           </ul>
         </div>
-
     </footer>
   </div>
   <button class="button is-primary">Buy Now</button>

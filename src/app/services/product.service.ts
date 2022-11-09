@@ -9,7 +9,7 @@ import { of, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ProductService {
-  public productList:{name:string, price:string, thumbnail_image: string, header_image:string, features:string[]}[] = products;
+  public productList:Product[] = products;
   public getProducts$ : Observable<Product[]> = of (products);
 
   constructor() { }
