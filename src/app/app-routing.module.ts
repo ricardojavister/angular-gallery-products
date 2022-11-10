@@ -5,13 +5,13 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 
 
 const routes: Routes = [
-  { component: ProductListComponent, path:''}, 
-  { path: '**',redirectTo: ''},
-  { component: ProductDetailComponent, path: 'product-detail/:id'}
+  { component: ProductListComponent, path:''},
+  { component: ProductDetailComponent, path: 'product-detail/:id'},
+  { path: '**',  redirectTo: ''}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes,{ useHash: true})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

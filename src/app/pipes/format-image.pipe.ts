@@ -5,8 +5,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class FormatImagePipe implements PipeTransform {
 
-  transform(value: string, type: string): string {
-    return './assets/'+ type +'/' + value + '.jpg';
+  transform(value: string, folder: string, ext: string ): string {
+    return './assets/'+ folder +'/' + value + ext;
   }
 
 }
